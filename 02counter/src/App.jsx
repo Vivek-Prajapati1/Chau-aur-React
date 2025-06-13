@@ -16,14 +16,12 @@ function App() {
     //counter = counter + 1
 
     setCounter(counter +1 )
-    console.log("Value Added", counter);
     
   }
 
   const removeValue = () =>{
    
     setCounter(counter - 1)
-    console.log('Removed Value', counter);
     
 
   }
